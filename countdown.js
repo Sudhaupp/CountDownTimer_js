@@ -24,9 +24,8 @@ function countdown() {
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
-
 countdown();
 
-
-
 setInterval(countdown, 1000);
+
+// checking dev branch commit
